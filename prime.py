@@ -4,6 +4,7 @@ prime.py -- Write the application code here
 #Python program to find prime factors
 
 def generate_prime_factors(input_num):
+    "Finds prime factors of a number - starts at 2"
     prime_list = []
     div = 2
     try:
